@@ -7,5 +7,8 @@ export default defineConfig({
   base: '/myportfolio', // Make sure this matches your repo name
   build: {
     outDir: 'build'  // This will generate 'build/' instead of 'dist/'
-  }
+  },
+  rollupOptions: {
+    external: ["locomotive-scroll"],
+  },
 });
