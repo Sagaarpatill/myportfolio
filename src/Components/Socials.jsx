@@ -37,18 +37,19 @@ function Socials() {
             </a>
           </div>
 
-          {/* LeetCode */}
-          <div className='card relative rounded-2xl w-full sm:w-1/2 h-full bg-[#292e2e] flex items-center justify-center'>
-            <p className='text-white text-2xl sm:text-3xl font-semibold'>LeetCode</p>
-            <a 
-              href="https://leetcode.com/u/Sagar1904/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className='absolute px-4 sm:px-5 py-2 border-2 border-white text-white rounded-full left-4 bottom-4 hover:bg-white hover:text-[#292e2e] transition'
-            >
-              Visit
-            </a>
-          </div>
+{/* Gmail */}
+<div className='card relative rounded-2xl w-full sm:w-1/2 h-full bg-[#292e2e] flex items-center justify-center'>
+  <p className='text-white text-2xl sm:text-3xl font-semibold'>Mail</p>
+  <a 
+    href="mailto:Sagarmpatil1904@gmail.com" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className='absolute px-4 sm:px-5 py-2 border-2 border-white text-white rounded-full left-4 bottom-4 hover:bg-white hover:text-[#292e2e] transition'
+  >
+    Email
+  </a>
+</div>
+
         </div>
       </div>
     </div>
