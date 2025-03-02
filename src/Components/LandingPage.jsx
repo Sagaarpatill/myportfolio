@@ -55,14 +55,16 @@ function LandingPage() {
         </p>
         
         <motion.a 
-          href="/resume.pdf"
-          download="Sagar_Patil_Resume.pdf"
-          whileHover={{ scale: 1.1, backgroundColor: "#4A4A4A", color: "#FFF" }} 
-          whileTap={{ scale: 0.95 }} 
-          className="px-6 py-3 sm:px-8 sm:py-4 border-[3px] uppercase border-zinc-400 rounded-full text-base sm:text-lg md:text-xl font-semibold cursor-pointer transition-all"
-        >
-          Check Out Resume
-        </motion.a>
+  href="https://drive.google.com/uc?export=download&id=1-aoD7Sw7I6YJ9DXzcuYTaeeaPves6zea"
+  target="_blank"
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.1, backgroundColor: "#4A4A4A", color: "#FFF" }} 
+  whileTap={{ scale: 0.95 }} 
+  className="px-6 py-3 sm:px-8 sm:py-4 border-[3px] uppercase border-zinc-400 rounded-full text-base sm:text-lg md:text-xl font-semibold cursor-pointer transition-all"
+>
+  Check Out Resume
+</motion.a>
+
       </div>
     </div>
   );
