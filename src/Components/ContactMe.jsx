@@ -54,7 +54,7 @@ function ContactMe() {
       data-scroll
       data-scroll-section
       data-scroll-speed="0.3"
-      className="w-full min-h-screen flex flex-col items-center justify-center bg-[#cfed63] py-20 px-4 sm:px-0"
+      className="w-full min-h-screen flex flex-col items-center justify-center bg-[#cfed63] pt-40 mt-20 px-4 sm:px-0"
     >
       <h1 className="uppercase text-[10vw] sm:text-[8vw] leading-[9vw] sm:leading-[7vw] font-['Founders_Grotesk_X-Condensed'] font-semibold text-gray-800 mb-8 sm:mb-10">
         Contact
@@ -115,7 +115,7 @@ function ContactMe() {
         </a>
       </div>
 
-      {/* Gmail and Phone Number (Smaller on Mobile) */}
+      {/* Gmail and Phone Number */}
       <div className="mt-8 sm:mt-10 text-center">
         <p className="text-base sm:text-xl font-semibold text-gray-800">
           📩 Email:{" "}

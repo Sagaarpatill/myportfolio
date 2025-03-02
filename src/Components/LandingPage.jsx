@@ -6,8 +6,9 @@ function LandingPage() {
   return (
     <div 
       data-scroll 
-      data-scroll-section 
-      className="relative z-[10] w-full h-screen bg-zinc-100 pt-1 flex flex-col justify-center"
+      data-scroll-section
+       
+      className="relative z-[10] w-full h-screen bg-[#CDEA68] pt-1 flex flex-col justify-center"
     >
       {/* Desktop View */}
       <div className="hidden sm:flex textstructure px-4 sm:px-8 md:px-16 lg:px-20 flex-col items-center justify-center text-center h-full">

@@ -5,7 +5,7 @@ function Projects() {
     const [hoveredProject, setHoveredProject] = useState(null);
 
     return (
-        <div className='w-full py-20'>
+        <div className='w-full py-29'>
             <div className='w-full px-5 md:px-20 border-b-[1px] pb-10 bg-white'>
                 <h1 className='text-5xl md:text-7xl font-["Neue_Montreal"] tracking-tight'>Projects</h1>
             </div>
@@ -52,7 +52,7 @@ function Projects() {
                     <div 
                         onMouseEnter={() => setHoveredProject("Docker")} 
                         onMouseLeave={() => setHoveredProject(null)} 
-                        className="cardcontainer relative w-full md:w-1/2 h-[50vh] md:h-[65vh] flex flex-col items-center mt-5"
+                        className="cardcontainer relative w-full md:w-1/2 h-[50vh] md:h-[65vh] flex flex-col items-center mt-5 md:mt-0"
                     >
                         <h2 className='text-3xl md:text-4xl font-bold mb-4'>Docker</h2>
                         <div className='relative w-full h-full'>
@@ -125,7 +125,7 @@ function Projects() {
                                         <div 
                         onMouseEnter={() => setHoveredProject("Docker")} 
                         onMouseLeave={() => setHoveredProject(null)} 
-                        className="cardcontainer relative w-full md:w-1/2 h-[50vh] md:h-[65vh] flex flex-col items-center mt-5"
+                        className="cardcontainer relative w-full md:w-1/2 h-[50vh] md:h-[65vh] flex flex-col items-center mt-5 md:mt-0"
                     >
                         <h2 className='text-3xl md:text-4xl font-bold mb-4'>Docker</h2>
                         <div className='relative w-full h-full'>

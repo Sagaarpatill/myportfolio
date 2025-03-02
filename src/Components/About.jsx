@@ -5,7 +5,7 @@ function About() {
     <div 
       data-scroll 
       data-scroll-section 
-      className="relative z-[20] w-full px-10 md:px-20 py-10 md:py-20 mt-10 md:mt-20 bg-[#CDEA68] rounded-2xl"
+      className="relative z-[20] w-full px-10 md:px-20 py-20 md:py-32 mt-16 md:mt-28 bg-[#CDEA68] rounded-2xl min-h-[60vh]"
     >
       {/* Desktop View */}
       <div className="hidden md:block">
@@ -32,7 +32,7 @@ function About() {
 
       <div className='border-t-[1px] border-zinc-500 mt-12'></div>
 
-      <div className="flex flex-col md:flex-row justify-between items-start px-5 py-5">
+      <div className="flex flex-col md:flex-row justify-between items-start px-5 py-10">
         <div className="w-full md:w-1/3">
           <h2 className="text-lg font-['Neue_Montreal'] text-[5vw] md:text-[1.6vw] mb-6 font-semibold">What you can expect:</h2>
         </div>

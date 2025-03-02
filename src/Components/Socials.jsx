@@ -2,7 +2,7 @@ import React from 'react';
 
 function Socials() {
   return (
-    <div className='w-full min-h-[50vh] bg-white flex flex-col items-center px-6 sm:px-20 gap-5 pt-10 mt-40'>
+    <div className='w-full min-h-[50vh] bg-white flex flex-col items-center px-6 sm:px-20 gap-5 pt-40 mt-20'>
       {/* Title */}
       <h1 className='text-4xl sm:text-5xl font-bold text-gray-800 mb-6 sm:mb-10'>Let's Connect</h1>
 
