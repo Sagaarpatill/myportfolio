@@ -5,15 +5,15 @@ function About() {
     <div 
       data-scroll 
       data-scroll-section 
-      className="relative z-[20] w-full px-10 md:px-20 py-20 md:py-32 mt-16 md:mt-28 bg-[#CDEA68] rounded-2xl min-h-[60vh]"
+      className="relative z-[20] w-full px-10 md:px-20 py-20 md:py-32 mt-16 md:mt-28 bg-[#a8cdff] rounded-2xl min-h-[60vh]"
     >
       {/* Desktop View */}
       <div className="hidden md:block">
-        <h1 className='font-["Neue_Montreal"] text-[2.7vw] tracking-tight'>
+        <h1 className='font-["Neue_Montreal"] text-[2.5vw] tracking-tight'>
           Hi, I'm Sagar Patil! 
         </h1>
-        <h1 className='font-["Neue_Montreal"] text-[2.7vw] tracking-tight'>
-          I'm a final-year Computer Science student at VIT Chennai, specializing in AI and Robotics. I have interned in DevOps and learned Full-Stack Development. With a strong foundation in cloud technologies, automation, and scalable web applications, I enjoy solving complex problems and continuously learning new technologies.
+        <h1 className='font-["Neue_Montreal"] text-[2.1vw] tracking-tight'>
+        Software Development Engineer (SDE 1) with a focus on full stack development and applied AI. I work across the web stack using technologies to build scalable applications. My academic background in Computer Science with a specialization in AI & Robotics from VIT Chennai supports my work on projects involving deep learning, computer vision, and intelligent automation. I’m currently involved in building end-to-end systems that combine clean backend architecture with AI-driven functionality, aiming for performance, maintainability, and real-world impact.
         </h1>
       </div>
       

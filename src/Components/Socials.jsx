@@ -9,7 +9,7 @@ function Socials() {
       <div className='w-full flex flex-col sm:flex-row items-center gap-5'>
         {/* LinkedIn Section */}
         <div className='cardcontainer w-full sm:w-1/2 h-[30vh] sm:h-[40vh]'>
-          <div className='card relative rounded-2xl w-full h-full bg-[#004D43] flex items-center justify-center'>
+          <div className='card relative rounded-2xl w-full h-full bg-[#6b92c5] flex items-center justify-center'>
             <p className='text-amber-200 text-3xl sm:text-4xl font-semibold'>LinkedIn</p>
             <a 
               href="https://www.linkedin.com/in/sagar-patil-b2a0b0223/" 
@@ -38,7 +38,7 @@ function Socials() {
           </div>
 
 {/* Gmail */}
-<div className='card relative rounded-2xl w-full sm:w-1/2 h-full bg-[#292e2e] flex items-center justify-center'>
+<div className='card relative rounded-2xl w-full sm:w-1/2 h-full bg-[#537db4] flex items-center justify-center'>
   <p className='text-white text-2xl sm:text-3xl font-semibold'>Mail</p>
   <a 
     href="mailto:Sagarmpatil1904@gmail.com" 
